@@ -1,0 +1,55 @@
+<div class="container-fluid page">
+
+  <!-- title / search / list page -->
+
+  <div [hidden]="!listbool">
+
+    <!-- title -->
+
+    <div class="row">
+      <div class="col-lg-6 title">
+        {{pagetitle}}
+      </div>
+      <div class="col-lg-6 add-icon-wrapper">
+        <button class="btn btn-primary btn-sm" (click)="showForm('add')">
+          <span class="add-icon-span">
+            <i class="fa fa-plus font-icon-button"></i>
+            Add New
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- search -->
+
+    <div class="page-section">
+      <app-model-search-page *ngIf="searchobj" [searchobj]="searchobj" [listobj]="listobj" [datarows]="datarows"></app-model-search-page>
+    </div>
+
+    <hr>
+
+    <!-- list -->
+
+    <div class="page-section">
+      <app-model-list-page *ngIf="listobj" [listobj]="listobj" [screenobj]="screenobj" [datarows]="datarows" (showscreenpage)="showForm($event)"></app-model-list-page>
+    </div>
+
+  </div>
+
+  <!-- add / edit page -->
+
+  <div [hidden]="listbool">
+    <app-model-screen-page *ngIf="screenobj" [screenobj]="screenobj" [screenstatus]="screenstatus" (showlistpage)="showList()"></app-model-screen-page>
+  </div>
+
+  <!-- <vernost-search searchtitle="Test Search Page">
+    <app-model-input class="col-md-6" *ngFor="let field of searchobj.fields" [field]="field"></app-model-input>
+  </vernost-search>
+
+  <hr>
+
+  <vernost-screen screentitle="Test Screen Page">
+    <app-model-input class="col-md-6" *ngFor="let field of screenobj.fields" [field]="field"></app-model-input>
+  </vernost-screen> -->
+
+</div>

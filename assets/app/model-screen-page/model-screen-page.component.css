@@ -1,0 +1,42 @@
+.header {
+  margin-bottom: 30px;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: .7rem;
+  margin-bottom: 1px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.back-button {
+  margin-left: 20px
+}
+
+.font-icon-button {
+  margin-right: 5px;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button-margin {
+  margin-left: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.screen-wrapper {
+  box-shadow: 0 2px 4px #e3e9f3;
+}
+
+.form-div {
+  width: 100%;
+  padding: 0 15px;
+}

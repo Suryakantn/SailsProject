@@ -1,0 +1,14 @@
+.body-cell-content-div {
+  display: table;
+  width: 100%;
+}
+
+.body-cell-text-span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+/* .body-cell-image-span {
+  
+} */

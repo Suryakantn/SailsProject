@@ -1,0 +1,27 @@
+.page {
+  padding: 18px 30px;
+}
+
+.title {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.page-section {
+  margin-top: 25px;
+}
+
+.add-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.add-icon-span {
+  margin: 0 10px;
+}
+
+.font-icon-button {
+  margin-right: 5px;
+}

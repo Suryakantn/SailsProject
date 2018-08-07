@@ -1,0 +1,29 @@
+.content {
+  padding-bottom: 36px;
+}
+
+.search-wrapper {
+  box-shadow: 0 2px 4px #e3e9f3;
+}
+
+.search-title {
+  display: flex;
+  align-items: center;
+}
+
+.form-div {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.search-buttons-wrapper {
+  margin-top: 20px;
+}
+
+.search-button {
+  margin-right: 20px
+}
+
+.search-button-span {
+  padding: 20px;
+}

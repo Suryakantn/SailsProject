@@ -1,0 +1,30 @@
+<div class="content row">
+  <div class="col-md-12">
+    <div class="card search-wrapper">
+      <h5 class="card-header">
+        {{searchtitle}}
+      </h5>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-div">
+              <div class="row">
+                <app-model-input class="col-md-6" *ngFor="let field of searchfields" [field]="field"></app-model-input>
+              </div>
+              <div class="row">
+                <div class="col-md-12 search-buttons-wrapper">
+                  <button type="button" class="btn btn-success search-button" (click)="onSearchClick()">
+                    <span class="search-button-span">Search</span>
+                  </button>
+                  <button type="button" class="btn btn-danger search-button" (click)="onClearClick()">
+                    <span class="search-button-span">Reset</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

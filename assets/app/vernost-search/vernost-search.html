@@ -1,0 +1,42 @@
+<div class="row content">
+  <div class="col-md-12">
+    <div class="card search-wrapper">
+      <h5 class="card-header">
+        <div class="row">
+          <div class="col-md-6 search-title">
+            <span>{{searchtitle}}</span>
+          </div>
+          <div class="col-md-6">
+            <button style="float: right;" class="btn btn-primary">
+              <i class="fa fa-plus"></i>
+              <span>Add</span>
+            </button>
+          </div>
+        </div>
+      </h5>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-div">
+              <div class="row">
+
+                <ng-content></ng-content>
+
+              </div>
+              <div class="row">
+                <div class="col-md-12 search-buttons-wrapper">
+                  <button type="button" class="btn btn-success search-button" (click)="onSearchClick()">
+                    <span class="search-button-span">Search</span>
+                  </button>
+                  <button type="button" class="btn btn-danger search-button" (click)="onClearClick()">
+                    <span class="search-button-span">Reset</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

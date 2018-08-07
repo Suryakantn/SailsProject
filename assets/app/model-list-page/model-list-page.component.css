@@ -1,0 +1,260 @@
+.header {
+  margin-bottom: 30px;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: .7rem;
+  margin-bottom: 1px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+
+.header-records {
+  font-size: 22px;
+  font-weight: 400;
+  color: #787e8f;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  text-transform: none;
+}
+
+.full-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-filter-box {
+  margin: 0 10px;
+}
+
+.content {
+  padding-bottom: 36px;
+}
+
+/* .table-scroll-dummy {
+  overflow-x: scroll;
+  margin-bottom: 10px;
+} */
+
+.table-scroll {
+  overflow: auto;
+  /* overflow-x: scroll; */
+  /* transform: rotateX(180deg); */
+}
+
+.list-table {
+  border-radius: 3px;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px #e3e9f3;
+  /* transform: rotateX(180deg); */
+}
+
+.header-row-wrapper {
+  background: #f3f3f3;
+  height: 41px;
+  overflow: hidden;
+}
+
+.header-row {
+  border: none;
+  padding: 0;
+}
+
+.header-cell {
+  padding: 0 25px;
+  height: 41px;
+  border: none!important;
+  letter-spacing: .03rem;
+  font-size: 1rem;
+  vertical-align: middle!important;
+  user-select: none;
+}
+
+.header-cell-action {
+  width: 150px;
+}
+
+.header-span {
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter-box {
+  height: 70%;
+}
+
+.body-row {
+  border: none;
+  padding: 0;
+  height: 60px;
+  background: #fff;
+  /* cursor: pointer; */
+}
+
+.body-cell {
+  border: none;
+  height: 60px;
+  line-height: 60px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333740;
+  border-collapse: collapse;
+}
+
+.body-cell-content {
+  padding: 0 25px;
+  vertical-align: middle!important
+}
+
+.body-cell-action {
+  vertical-align: middle!important
+}
+
+.body-cell-action-div {
+  display: flex;
+  min-width: 60px;
+  justify-content: flex-start;
+}
+
+.font-icon-wrapper {
+  width: 30px;
+  height: 100%;
+  color: #0e1622;
+  opacity: .75;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+}
+
+.font-icon-padding {
+  margin-left: 0;
+  padding-left: 7px;
+}
+
+.font-icon-action {
+  margin-left: 0;
+  font-size: 1.2rem;
+  color: #0e1622;
+  z-index: 0;
+}
+
+.no-record-msg {
+  text-align: center
+}
+
+.table-pagination-up {
+  margin-bottom: 1rem;
+  padding: 0px 15px;
+}
+
+.table-pagination-down {
+  margin-top: 2rem;
+  padding: 0px 15px;
+}
+
+.table-pagination-div {
+  padding: 0;
+}
+
+.table-pagination-limit {
+  display: flex;
+}
+
+.table-pagination-dropdown {
+  height: 2rem!important;
+  padding-top: 0;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  background-position: right -1px center;
+  background-repeat: no-repeat;
+  background-image: url('../../images/dropdown.svg');
+  border: 1px solid #e3e9f3;
+  border-radius: .25rem;
+  line-height: 29px;
+  font-size: 1rem;
+  font-family: Lato!important;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.table-pagination-limit-label {
+  margin-left: 1rem;
+  padding-top: 1px;
+  color: #787e8f;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.table-pagination-controls {
+  width: 100%;
+  display: flex;
+  margin-top: -2px;
+  justify-content: flex-end;
+}
+
+/* -------------------- MODAL -------------------- */
+
+.modals-head {
+  margin-left: 30px;
+  padding-bottom: 11px!important;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.modals-title {
+  width: 100%;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 700!important;
+  font-size: 1.8rem!important;
+}
+
+.modals-close {
+  color: #c3c5c8;
+  opacity: 1;
+  font-size: 1.2rem;
+  font-weight: 100;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.modals-body {
+  padding: 16px 30px 15px!important;
+}
+
+.warning {
+  content: url('../../images/warning.svg');
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  margin: 10px auto;
+  padding: 0;
+}
+
+.modals-delete-message {
+  padding: .1rem;
+  color: #f64d0a;
+  text-align: center;
+  font-family: Lato;
+  font-size: 1rem;
+}
+
+.modals-buttons-wrapper {
+  text-align: center;
+  margin-top: 37px
+}
+
+.modals-button-margin {
+  margin: 0 10px;
+}
+
+.modals-button-span {
+  padding: 0 40px
+}
+
+/*  */
+
